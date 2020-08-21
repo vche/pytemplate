@@ -2,10 +2,10 @@
 
 Template for a pip python package with:
 - tox pytest based unit tests
-- code coverage
-- autoformat
-- format checking
-- type checking
+- pytest code coverage
+- isort/black autoformat
+- flake8 format checking
+- mypy type checking
 - sphinx doc generation
 
 To use this template and create a new project:
