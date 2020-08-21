@@ -1,6 +1,15 @@
 ## pytemplate
 
 template for a typical python package with config for tess format and type verification
+To use this template and create a new project:
+
+```sh
+git clone ssh://git@192.168.0.198:10022/viv/pytemplate.git
+./templatize.sh $NEW_PROJECT_NAME $NEW_PROJECT_PATH
+```
+
+The new project will be created in $NEW_PROJECT_PATH/$NEW_PROJECT_NAME
+To run test and generate doc, see README
 
 ### Development
 
@@ -19,7 +28,7 @@ Note: Entry points will be installed in pyvenv/bin, libs with pyvenv libs
 #### Run tests
 
 ```sh
-pip install tox sphinx sphinx_rtd_theme pip install m2r
+pip install tox
 tox
 ```
 
