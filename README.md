@@ -8,7 +8,7 @@ template for a typical python package with config for tess format and type verif
 
 Get the project and create the virtual env:
 ```sh
-git clone https://github.com/vche/pkg_name
+git clone https://github.com/vche/TEMPLATE_PACKAGE_NAME
 virtualenv pyvenv
 . pyvenv/bin/activate
 pip install -e .
@@ -31,6 +31,7 @@ pip install sphinx sphinx_rtd_theme m2r
 ```
 
 In case new classes/modules are added, update the autodoc list:
-```
-sphinx-apidoc -f -o docs/sphinx_conf/source/ src/pkg_name
+```sh
+rm  docs/sphinx_conf/source/*
+sphinx-apidoc -f -o docs/sphinx_conf/source/ src/TEMPLATE_PACKAGE_NAME
 ```
