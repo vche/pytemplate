@@ -11,12 +11,13 @@ Template for a pip python package with:
 To use this template and create a new project:
 
 ```sh
-git clone ssh://git@192.168.0.198:10022/viv/pytemplate.git
+git clone https://github.com/vche/pytemplate.git
 ./templatize.sh $NEW_PROJECT_NAME $NEW_PROJECT_PATH
 ```
 
 The new project will be created in $NEW_PROJECT_PATH/$NEW_PROJECT_NAME
 To run test and generate doc, see README
+
 
 ### Development
 
@@ -24,7 +25,7 @@ To run test and generate doc, see README
 
 Get the project and create the virtual env:
 ```sh
-git clone https://github.com/vche/TEMPLATE_PACKAGE_NAME
+git clone https://github.com/vche/TEMPLATE_PACKAGE_NAME.git
 virtualenv pyvenv
 . pyvenv/bin/activate
 pip install -e .
