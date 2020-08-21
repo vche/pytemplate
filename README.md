@@ -1,6 +1,13 @@
 ## pytemplate
 
-template for a typical python package with config for tess format and type verification
+Template for a pip python package with:
+- tox pytest based unit tests
+- code coverage
+- autoformat
+- format checking
+- type checking
+- sphinx doc generation
+
 To use this template and create a new project:
 
 ```sh
